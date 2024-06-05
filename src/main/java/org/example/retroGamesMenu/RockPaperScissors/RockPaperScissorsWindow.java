@@ -33,9 +33,9 @@ public class RockPaperScissorsWindow extends JPanel {
         JPanel centralPanel = new JPanel(new BorderLayout());
 
         // Create the buttons with photos
-        JButton button1 = createButtonWithPhoto("/Users/rares/Desktop/PA/RetroGames/src/main/resources/rock.png");
-        JButton button2 = createButtonWithPhoto("/Users/rares/Desktop/PA/RetroGames/src/main/resources/paper.png");
-        JButton button3 = createButtonWithPhoto("/Users/rares/Desktop/PA/RetroGames/src/main/resources/scissors.png");
+        JButton button1 = createButtonWithPhoto("/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/rock.png");
+        JButton button2 = createButtonWithPhoto("/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/paper.png");
+        JButton button3 = createButtonWithPhoto("/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/scissors.png");
 
         // Set the preferred size of the buttons
         Dimension buttonSize = new Dimension(160, 160);
@@ -62,12 +62,12 @@ public class RockPaperScissorsWindow extends JPanel {
         // Create the left animated label
         leftLabel = new JLabel();
         leftLabel.setPreferredSize(new Dimension(160, 160));
-        animateLabel(leftLabel, "/Users/rares/Desktop/PA/RetroGames/src/main/resources/rock-left.png");
+        animateLabel(leftLabel, "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/rock-left.png");
 
         // Create the right animated label
         rightLabel = new JLabel();
         rightLabel.setPreferredSize(new Dimension(160, 160));
-        animateLabel(rightLabel, "/Users/rares/Desktop/PA/RetroGames/src/main/resources/rock-right.png");
+        animateLabel(rightLabel, "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/rock-right.png");
 
         // Add the labels to the animation panel
         animationPanel.add(leftLabel, BorderLayout.WEST);
@@ -254,17 +254,17 @@ public class RockPaperScissorsWindow extends JPanel {
 
     private String getPhotoPathPlayer(String move) {
         return switch (move) {
-            case "1" -> "/Users/rares/Desktop/PA/RetroGames/src/main/resources/rock-left.png";
-            case "2" -> "/Users/rares/Desktop/PA/RetroGames/src/main/resources/paper-left.png";
-            case "3" -> "/Users/rares/Desktop/PA/RetroGames/src/main/resources/scissors-left.png";
+            case "1" -> "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/rock-left.png";
+            case "2" -> "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/paper-left.png";
+            case "3" -> "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/scissors-left.png";
             default -> "";
         };
     }
     private String getPhotoPathServer(String move) {
         return switch (move) {
-            case "1" -> "/Users/rares/Desktop/PA/RetroGames/src/main/resources/rock-right.png";
-            case "2" -> "/Users/rares/Desktop/PA/RetroGames/src/main/resources/paper-right.png";
-            case "3" -> "/Users/rares/Desktop/PA/RetroGames/src/main/resources/scissors-right.png";
+            case "1" -> "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/rock-right.png";
+            case "2" -> "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/paper-right.png";
+            case "3" -> "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/scissors-right.png";
             default -> "";
         };
     }

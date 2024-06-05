@@ -223,7 +223,7 @@ public class HangmanWindow extends JPanel {
     }
 
     private void updateHangmanImage() {
-        String imagePath = "/Users/rares/Desktop/PA/RetroGames/src/main/resources/hangman" + (7 - numLives) + ".png";
+        String imagePath = "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/hangman" + (7 - numLives) + ".png";
         ImageIcon imageIcon = new ImageIcon(imagePath);
         hangmanImageLabel.setIcon(imageIcon);
         revalidate();

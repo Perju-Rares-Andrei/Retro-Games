@@ -12,10 +12,10 @@ public class RetroGamesGridPanel extends JPanel {
 
         //Butoanele pentru fiecare joc
 
-        addGameButton(parentFrame, "Tic-Tac-Toe", "/Users/rares/Desktop/PA/RetroGames/src/main/resources/tic-tac-toe.png",retroGamesMenu);
-        addGameButton(parentFrame, "Hangman", "/Users/rares/Desktop/PA/RetroGames/src/main/resources/hangman.png",retroGamesMenu);
-        addGameButton(parentFrame, "Ramsey Graph", "/Users/rares/Desktop/PA/RetroGames/src/main/resources/ramsey-graph.png",retroGamesMenu);
-        addGameButton(parentFrame, "Rock Paper Scissors", "/Users/rares/Desktop/PA/RetroGames/src/main/resources/rockPaperScissors.png",retroGamesMenu);
+        addGameButton(parentFrame, "Tic-Tac-Toe", "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/tic-tac-toe.png",retroGamesMenu);
+        addGameButton(parentFrame, "Hangman", "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/hangman.png",retroGamesMenu);
+        addGameButton(parentFrame, "Ramsey Graph", "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/ramsey-graph.png",retroGamesMenu);
+        addGameButton(parentFrame, "Rock Paper Scissors", "/Users/rares/Desktop/Java-2024/Retro-Games/src/main/resources/rockPaperScissors.png",retroGamesMenu);
     }
 
     private void addGameButton(JFrame parentFrame, String gameTitle, String imagePath, RetroGamesMenu retroGamesMenu) {
